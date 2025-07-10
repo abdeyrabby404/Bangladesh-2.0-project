@@ -171,3 +171,31 @@ img{
     border: none;
     margin-bottom: 32px;
 }
+
+.cotation{
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.author{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 700px;
+}
+.author-desc{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+}
+.motivation{
+    padding:0px 0px 0px 30px ;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin-bottom: 80px;
+    border-radius: 16px;
+}
+.motivation img{
+    padding-top: 30px;
+}
+.absolute-implement{
+    position: relative;
+    bottom: 66px;
+}
