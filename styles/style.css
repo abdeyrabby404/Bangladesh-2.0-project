@@ -40,6 +40,9 @@
     background-color: #006A50;
     cursor: pointer;
 }
+.center{
+    text-align: center;
+}
 
 /* nav style  */
 nav{
@@ -246,4 +249,42 @@ img{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
     margin-bottom: 32px;
+}
+
+/* donate section style  */
+.donate{
+    margin-top: 56px;
+    margin-bottom: 80px;
+    padding: 0px 88px;
+}
+.ammount{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.ammount-btn{
+    padding: 40px;
+    background-color: white;
+    border-radius: 16px;
+    /* background-color: rgba(198, 228, 214, 1); */
+    cursor: pointer;
+}
+.ammount-bg{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+input[type=text]{
+    width: 100%;
+    display: block;
+    /* height: 50px; */
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(14, 14, 14, 0.3);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 32px 0px;
 }
