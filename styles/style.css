@@ -146,6 +146,7 @@ img{
     border-radius: 16px;
     border: none;
     margin-bottom: 32px;
+    cursor: pointer;
 }
 
 .vision-2{
@@ -164,6 +165,7 @@ img{
     border-radius: 16px;
     border: none;
     margin-bottom: 32px;
+    cursor: pointer;
 }
 
 .vision-3{
@@ -182,6 +184,7 @@ img{
     border-radius: 16px;
     border: none;
     margin-bottom: 32px;
+    cursor: pointer;
 }
 
 .cotation{
@@ -268,6 +271,7 @@ img{
     align-items: center;
     margin-top: 32px;
     margin-bottom: 32px;
+    
 }
 .ammount-btn{
     padding: 40px;
@@ -275,6 +279,7 @@ img{
     border-radius: 16px;
     /* background-color: rgba(198, 228, 214, 1); */
     cursor: pointer;
+    border: 1px solid rgba(14, 14, 14, 0.15);
 }
 .ammount-bg{
     background-color: rgba(198, 228, 214, 1);
@@ -291,6 +296,7 @@ input[type=text]{
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 32px 0px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
 /* newsletter section style  */
@@ -298,6 +304,7 @@ input[type=text]{
     margin-bottom: 80px;
     background-color: #C6E4D6;
     border-radius: 24px;
+    font-size: 30px;
 }
 .newsletter-container{
     padding: 80px;
