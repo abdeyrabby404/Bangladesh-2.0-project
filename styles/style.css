@@ -1,0 +1,32 @@
+/* font style  */
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+}
+
+/* shared style  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.p-btn{
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 500px;
+    color: #006A50;
+    border-radius: 8px;
+    border: 2px solid #006A50;
+    background-color: transparent;
+}
+
+/* nav style  */
+nav{
+    padding: 24px 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav h1{
+    font-size: 32px;
+}
