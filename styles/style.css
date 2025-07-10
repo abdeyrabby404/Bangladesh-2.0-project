@@ -18,15 +18,60 @@
     border-radius: 8px;
     border: 2px solid #006A50;
     background-color: transparent;
+    cursor: pointer;
+}
+.p-btn-2{
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 500px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    background-color: #006A50;
+    cursor: pointer;
 }
 
 /* nav style  */
 nav{
-    padding: 24px 160px;
+    /* padding: 24px 160px; */
+    max-width: 1280px;
+    margin: 24px auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 nav h1{
     font-size: 32px;
+}
+
+/* main section style  */
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* hero section style  */
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 80px 60px;
+    border-radius: 24px;
+}
+.heroinfo{
+    width: 622px;
+}
+.heroimage{
+    width: 475px;
+}
+.hero-title{
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+.hero-desc{
+    margin-bottom: 24px;
+    font-size: 56px;
+    color: #0E0E0E;
 }
