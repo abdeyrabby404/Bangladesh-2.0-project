@@ -16,6 +16,10 @@
     margin-bottom: 32px;
 }
 
+.bg-color{
+    background-color: #F1F1F3;
+}
+
 .p-btn{
     padding: 15px 30px;
     font-size: 18px;
@@ -96,6 +100,7 @@ main{
     padding: 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
+    background-color: white;
 }
 .pillar-title{
     font-size: 18px;
@@ -198,4 +203,47 @@ img{
 .absolute-implement{
     position: relative;
     bottom: 66px;
+}
+
+/* recent news section style  */
+.recent-news > .pillar-desc{
+    margin-bottom: 32px;
+}
+.satellite-box{
+    display: flex;
+    gap: 32px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 48px 20px 48px;
+    border-radius: 24px;
+    margin-bottom: 24px;
+}
+.satellite-img{
+    width: 408px;
+}
+.satellite-img img{
+    border-radius: 24px;
+}
+.satellite-info{
+    width: 744px;
+}
+.satellite-title{
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12pxs;
+}
+.aljazeeria{
+    width: 134px;
+    margin-bottom: 12px;
+}
+.dt{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 12px;
+}
+.satellite-desc{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
 }
