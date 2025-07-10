@@ -10,6 +10,12 @@
     padding: 0;
 }
 
+.section-title{
+    font-size: 40px;
+    /* font-weight: 800px; */
+    margin-bottom: 32px;
+}
+
 .p-btn{
     padding: 15px 30px;
     font-size: 18px;
@@ -58,6 +64,7 @@ main{
     background-color: rgba(198, 228, 214, 1);
     padding: 80px 60px;
     border-radius: 24px;
+    margin-bottom: 80px;
 }
 .heroinfo{
     width: 622px;
@@ -74,4 +81,31 @@ main{
     margin-bottom: 24px;
     font-size: 56px;
     color: #0E0E0E;
+}
+
+/* pillar section style  */
+.pillar-section{
+    margin-bottom: 80px;
+}
+.pillars{
+    display: flex;
+    gap: 24px;
+}
+.pillar{
+    width: 302px;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.pillar-title{
+    font-size: 18px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.pillar-desc{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+img{
+    margin-bottom: 24px;
 }
